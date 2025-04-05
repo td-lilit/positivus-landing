@@ -1,38 +1,38 @@
 .navigation {
-display: flex;
-justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .navigation__main {
-   display: flex;
-   align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .navigation__list {
   display: flex;
   gap: 30px;
-   align-items: center;
+  align-items: center;
 }
 
-.navigation__list >.navigation__item:first-child >.navigation__link {
-    padding-left: 0;
+.navigation__list > .navigation__item:first-child > .navigation__link {
+  padding-left: 0;
 }
 
 .navigation__link {
-    font-family: "Space Grotesk", sans-serif;
-    color: #000000;
-    font-size: 20px;
-    padding: 5px;
-    text-decoration: none;
+  font-family: "Space Grotesk", sans-serif;
+  color: #000000;
+  font-size: 20px;
+  padding: 5px;
+  text-decoration: none;
 }
 
 .navigation__link_expressive {
-    display: block;
-    border: 1px solid #191A23;
-    padding: 20px 35px;
-    border-radius: 14px;
+  display: block;
+  border: 1px solid #191A23;
+  padding: 20px 35px;
+  border-radius: 14px;
 }
 
 .navigation__link:visited {
-    color: inherit;
+  color: inherit;
 }
