@@ -5,15 +5,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>home</title>
         <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="styles/common.css">
 
         <link rel="stylesheet" href="styles/header.css">
         <link rel="stylesheet" href="styles/navigation.css">
+        <link rel="stylesheet" href="styles/button.css">
+        <link rel="stylesheet" href="styles/brands.css">
     </head>
     <body>
        <header class="header">
-        <nav class="navigation">
+        <nav class="navigation header__navigation">
             <a class="navigation__main" href="#">
-                <img class="navigation__logo" src="assets/logo.svg" alt="Positivus">
+                <img class="navigation__logo" src="assets/navigation/logo.svg" alt="Positivus">
             </a>
             <ul class="navigation__list">
                 <li class="navigation__item">
@@ -34,23 +37,55 @@
                 <li class="navigation__item">
                     <a class="navigation__link navigation__link_expressive" href="#">Request a quote</a>
                 </li>
-               
             </ul>
         </nav>
-        <h1 class="header__heading">
-            Navigating the digital landscapes for success
-        </h1>
-        <p class="header__description">Our digital marketing agency helps businesses grow and succeed online through a range of services including SEO, PPC, social media marketing, and content creation.   
-        </p>
-        <button class="button">Book a consultation</button>
-        <ul class="brands">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
+        <div class="header__content">
+            <section class="header__info">
+                <h1 class="header__heading">
+                    Navigating the digital landscapes for success
+                </h1>
+                <p class="header__description">Our digital marketing agency helps businesses grow and succeed online through a range of services including SEO, PPC, social media marketing, and content creation.   
+                </p>
+                <button class="button">Book a consultation</button>
+             </section>
+             <section class="header__socials">
+                <img class="header__socials-img" src="assets/header/socials.svg" alt="socials">
+            </section>
+        </div>
+        <section class="brands header__brands" id="brands">
+            <ul class="brands__list" id="brandsList">
+                <li class="brands__item">
+                    <a class="brands__link" href="https://www.amazon.com" target="_blank">
+                        <img src="assets/brands/amazon.svg" alt="amazon">
+                    </a>
+                </li>
+                <li class="brands__item">
+                    <a class="brands__link" href="https://www.dribble.com" target="_blank">
+                        <img src="assets/brands/dribble.svg" alt="dribble">
+                    </a>
+                </li>
+                <li class="brands__item">
+                    <a class="brands__link" href="https://www.hubspot.com" target="_blank">
+                        <img src="assets/brands/hubspot.svg" alt="hubspot">
+                    </a>
+                </li>
+                <li class="brands__item">
+                    <a class="brands__link" href="https://www.notion.com" target="_blank">
+                        <img src="assets/brands/notion.svg" alt="notion">
+                    </a>
+                </li>
+                <li class="brands__item">
+                    <a class="brands__link" href="https://www.netflix.com" target="_blank">
+                        <img src="assets/brands/netflix.svg" alt="netflix">
+                    </a>
+                </li>
+                <li class="brands__item">
+                    <a class="brands__link" href="https://www.zoom.com" target="_blank">
+                        <img src="assets/brands/zoom.svg" alt="zoom">
+                    </a>
+                </li>
+            </ul>
+        </section>
        </header>
     </body>
 </html>

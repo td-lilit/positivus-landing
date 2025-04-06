@@ -1,0 +1,18 @@
+.brands {
+    overflow: hidden;
+}
+
+.brands__list {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    width: 100%;
+}
+
+.brands__link > img {
+    filter: grayscale(40);
+}
+
+.brands__link:hover >img {
+    filter: none;
+}

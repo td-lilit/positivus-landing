@@ -4,6 +4,17 @@
     font-weight: 300-700;
 */
 
+/*
+    landscape-l: > 1920
+    landscape-m: > 1440
+    tablet-l: > 1240
+    tablet-m: > 960
+    mobile-l: >740
+    mobile-m: >480
+    mobile-s: >320
+
+*/
+
 * {
     margin: 0;
     padding: 0;
@@ -12,4 +23,8 @@
 
 ul {
     list-style: none;
+}
+
+button {
+    border: none;
 }
