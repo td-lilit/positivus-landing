@@ -14,11 +14,14 @@
 	</head>
 	<body>
 		<header class="wrapper header">
-			<nav class="navigation header__navigation">
+			<nav class="navigation header__navigation" id="headerNavigation">
 				<a class="navigation__main" href="#">
 					<img class="navigation__logo" src="assets/navigation/logo.svg" alt="Positivus">
 				</a>
 				<ul class="navigation__list">
+					<li class="navigation__item navigation__item_mobile">
+						<a class="navigation__link" href="#">Home</a>
+					</li>
 					<li class="navigation__item">
 						<a class="navigation__link" href="#">About us</a>
 					</li>
@@ -38,6 +41,12 @@
 						<a class="navigation__link navigation__link_expressive" href="#">Request a quote</a>
 					</li>
 				</ul>
+
+				<button class="navigation__toggle navigation__toggle_closed">
+					<span></span>
+					<span></span>
+					<span></span>
+				</button>
 			</nav>
 			<div class="header__content">
 				<section class="header__info">
@@ -88,5 +97,7 @@
 				</ul>
 			</section>
 		</header>
+
+		<script src="script/header-navigation.js"></script>
 	</body>
 </html>

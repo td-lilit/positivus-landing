@@ -37,3 +37,37 @@
     width: 100%;
 }
 
+@media screen and (max-width: 1439px) {
+    .header__socials-img {
+        width: 550px;
+    }
+}
+
+@media screen and (max-width: 1239px) {
+
+.header__navigation {
+    margin-bottom: 50px;
+}
+
+.header__content {
+    margin-bottom: 50px;
+}
+
+    .header__heading {
+        width: 360px;
+        font-size: 42px;
+    }
+
+    .header__description {
+        width: 360px;
+        margin-bottom: 25px;
+    }
+
+    .header__socials-img {
+        width: 470px;
+        margin-bottom: 25px;
+    }
+}
+    
+
+

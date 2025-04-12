@@ -3,6 +3,10 @@
 	padding-right: 100px;
 }
 
+.hidden {
+	display: none !important;
+}
+
 @media screen and (min-width: 1921px) {
 	.wrapper {
 		padding-left: calc(100px + (100% - 1920px) / 2);
