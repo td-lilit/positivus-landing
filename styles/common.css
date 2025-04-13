@@ -28,3 +28,17 @@
 	}
 }
 
+@media  screen and (max-width: 739px) {
+	.wrapper {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+}
+
+@media  screen and (max-width: 739px) {
+	.wrapper {
+		padding-left:20px;
+		padding-top: 20px;
+	}
+}
+

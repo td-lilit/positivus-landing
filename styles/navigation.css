@@ -91,7 +91,7 @@
 		flex-direction: column;
 		background: rgba(255, 255, 255, .95);
 		z-index: 100;
-		padding: 60px;
+		padding: 100px 60px 60px 60px;
 		box-sizing: border-box;
 	}
 
@@ -116,3 +116,41 @@
 		display: block;
 	}
 }
+
+@media  screen and (max-width: 739px) {
+    .navigation__list {
+		padding: 70px 30px 30px 30px;
+	}
+
+	.navigation__toggle {
+		top: 30px;
+		right: 30px;
+	}
+}
+
+@media  screen and (max-width: 479px) {
+    .navigation__logo {
+	    height: 24px;
+    }
+
+	.navigation__toggle {
+		width: 24px;
+		height: 24px;
+		top: 30px;
+		right: 20px;
+	}
+
+	.navigation__list {
+		padding: 60px 20px 20px 20px;
+	}
+
+	.navigation__link {
+		font-size: 26px;
+		padding: 8px;
+	}
+
+	.navigation__link_expressive {
+		padding: 10px 20px;
+	}
+}
+
