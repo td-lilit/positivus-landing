@@ -5,6 +5,7 @@
 .brands__list {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 40px;
     width: 100%;
 }
@@ -15,4 +16,22 @@
 
 .brands__link:hover >img {
     filter: none;
+}
+
+@media screen and (max-width: 1239px) {
+    .brands__list {
+        gap: 10px 110px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .brands__list {
+        gap: 10px 35px;
+    }
+
+    .brands__link > img {
+        max-width: 100px;
+    }
 }
