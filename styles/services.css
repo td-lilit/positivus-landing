@@ -17,17 +17,17 @@
     width: calc((100% - 40px) / 2);
 }
 
-@media  screen and (max-width: 1239px) {
+@media screen and (max-width: 1239px) {
    .services__list {
         gap: 35px;
    } 
 
    .services__service-card {
-        width: calc(100% - 25px) / 2;
+        width: calc((100% - 35px) / 2);
    }
 }
 
-@media  screen and (max-width: 579px) {
+@media screen and (max-width: 579px) {
     .services__title {
         margin-bottom: 40px; 
     }

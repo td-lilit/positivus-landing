@@ -49,6 +49,7 @@
 }
 
 
+/* TYPE 1 */
 .service-card_type-1 {
     background-color: #F3F3F3;
 }
@@ -61,6 +62,7 @@
     background-image: url('../assets/service-card/service-card-icon-type-1.svg');
 }
 
+/* TYPE 2 */
 .service-card_type-2 {
     background-color: #B9FF66;
 }
@@ -73,6 +75,7 @@
     background-image: url('../assets/service-card/service-card-icon-type-1.svg');
 }
 
+/* TYPE 3 */
 .service-card_type-3 {
     background-color: #191A23;
 }
@@ -86,6 +89,7 @@
     background-image: url('../assets/service-card/service-card-icon-type-3.svg');
 }
 
+/* TYPE 4 */
 .service-card_type-4 {
     background-color: #191A23;
 }
@@ -99,14 +103,13 @@
     background-image: url('../assets/service-card/service-card-icon-type-3.svg');
 }
 
-@media  screen and (max-width: 1239px) {
+@media screen and (max-width: 1239px) {
     .service-card {
         padding: 35px;
-
     }
 }
 
-@media screen and (max-width: 939px){
+@media screen and (max-width: 939px) {
     .service-card {
         padding: 40px;
         grid-template-areas: 
@@ -135,23 +138,23 @@
     }
 }
 
-@media  screen and (max-width: 739px) {
+@media screen and (max-width: 739px) {
     .service-card {
         padding: 30px;
         height: 290px;
-        }
+    }
 
     .service-card__heading {
         font-size: 25px;
-        }
+    }
 }
 
-@media  screen and (max-width: 579px) {
+@media screen and (max-width: 579px) {
     .service-card {
         height: 330px;
-        }
+    }
 
     .service-card__img {
         max-height: 145px;
-        }
+    }
 }

@@ -84,9 +84,9 @@
 	}
 }
 
-@media  screen and (max-width: 959px) {
+@media screen and (max-width: 959px) {
     .header {
-		margin-bottom:  0px;
+		margin-bottom: 100px;
 	}
 
 	.header__content {
@@ -118,7 +118,7 @@
 	}
 }
 
-@media  screen and (max-width: 739px) {
+@media screen and (max-width: 739px) {
     .header {
 		padding-top: 30px;
 		margin-bottom: 60px;
@@ -129,7 +129,7 @@
 	}
 }
 
-@media  screen and (max-width: 479px) {
+@media screen and (max-width: 479px) {
     .header__navigation {
 		margin-bottom: 40px;
 	}
