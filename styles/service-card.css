@@ -1,0 +1,157 @@
+.service-card {
+   padding: 50px;
+   height: 310px;
+   border-radius: 45px;
+   border: 1px solid #191A23;
+   border-bottom: 7px solid #191A23;
+   box-sizing: border-box;
+   display: grid;
+   grid-template-areas: 
+   "heading     img"
+   "link        img";
+}
+
+.service-card__heading {
+    grid-area: heading;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.service-card__heading > span {
+    display: block;
+    padding-inline: 7px;
+    border-radius: 7px;
+    width: fit-content;
+}
+
+.service-card__link {
+    grid-area: link;
+    align-self: end;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #000;
+    padding-left: 56px;
+    height: 41px;
+    line-height: 41px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left center;
+}
+
+.service-card__img {
+    grid-area: img;
+    justify-self: end;
+    align-self: center;
+    max-width: 100%;
+}
+
+
+.service-card_type-1 {
+    background-color: #F3F3F3;
+}
+
+.service-card_type-1 > .service-card__heading > span {
+    background-color: #B9FF66;
+}
+
+.service-card_type-1 > .service-card__link {
+    background-image: url('../assets/service-card/service-card-icon-type-1.svg');
+}
+
+.service-card_type-2 {
+    background-color: #B9FF66;
+}
+
+.service-card_type-2 > .service-card__heading > span {
+    background-color: #fff;
+}
+
+.service-card_type-2 > .service-card__link {
+    background-image: url('../assets/service-card/service-card-icon-type-1.svg');
+}
+
+.service-card_type-3 {
+    background-color: #191A23;
+}
+
+.service-card_type-3 > .service-card__heading > span {
+    background-color: #fff;
+}
+
+.service-card_type-3 > .service-card__link {
+    color: #fff;
+    background-image: url('../assets/service-card/service-card-icon-type-3.svg');
+}
+
+.service-card_type-4 {
+    background-color: #191A23;
+}
+
+.service-card_type-4 > .service-card__heading > span {
+    background-color: #fff;
+}
+
+.service-card_type-4 > .service-card__link {
+    color: #fff;
+    background-image: url('../assets/service-card/service-card-icon-type-3.svg');
+}
+
+@media  screen and (max-width: 1239px) {
+    .service-card {
+        padding: 35px;
+
+    }
+}
+
+@media screen and (max-width: 939px){
+    .service-card {
+        padding: 40px;
+        grid-template-areas: 
+        "heading     heading"
+        "link        img";
+    }
+
+    .service-card__heading {
+        font-size: 26px;
+    }
+
+    .service-card__link {
+        align-self: end;
+        box-sizing: border-box;
+        width: 41px;
+    }
+
+    .service-card__link > span {
+        display: none;
+    }
+
+    .service-card__img {
+        justify-self: end;
+        align-self: end;
+        max-height: 125px;
+    }
+}
+
+@media  screen and (max-width: 739px) {
+    .service-card {
+        padding: 30px;
+        height: 290px;
+        }
+
+    .service-card__heading {
+        font-size: 25px;
+        }
+}
+
+@media  screen and (max-width: 579px) {
+    .service-card {
+        height: 330px;
+        }
+
+    .service-card__img {
+        max-height: 145px;
+        }
+}
