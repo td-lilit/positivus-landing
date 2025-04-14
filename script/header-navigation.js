@@ -29,14 +29,14 @@ class HeaderNavigation {
 
 	set mobile(value) {
 		if (value && !this._mobile) {
+			this._mobile = value;
 			this.onMobile();
 		}
 
 		if (!value && this._mobile) {
+			this._mobile = value;
 			this.onDesktop();
 		}
-
-		this._mobile = value;
 	}
 
 	get opened() {
@@ -45,14 +45,14 @@ class HeaderNavigation {
 
 	set opened(value) {
 		if (value && !this.opened) {
+			this._opened = value;
 			this.onOpen();
 		}
 
 		if (!value && this.opened) {
+			this._opened = value;
 			this.onClose();
 		}
-
-		this._opened = value;
 	}
 
 	setEvents() {
@@ -96,7 +96,9 @@ class HeaderNavigation {
 	}
 
 	onClose() {
-		this.list.classList.add('hidden');
+		if (this.mobile) {
+			this.list.classList.add('hidden');
+		}
 
 		this.toggle.classList.remove('navigation__toggle_opened');
 		this.toggle.classList.add('navigation__toggle_closed');
